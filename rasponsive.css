@@ -1,0 +1,186 @@
+@media only screen and (max-width: 1611px) {
+  .product .container .cards .wrapper{
+    gap: 20px;
+  }
+  .home .wrapper{
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 1500px) {
+}
+
+@media only screen and (max-width: 1200px) {
+  .top-bar .container{
+    width: 85%;
+  }
+  .home .wrapper{
+    width: 95%;
+  }
+  .nav-bar{
+    width: 85%;
+  }
+
+  .home .content h1{
+    font-size: 2.5rem;
+  }
+}
+
+@media only screen and (max-width: 1090px) {
+  .top-bar .container{
+    width: 95%;
+  }
+
+  .nav-bar{
+    width: 95%;
+  }
+
+  
+  .home .content h1{
+    font-size: 2rem;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .top-bar{
+    display: none;
+  }
+
+  .menu-list{
+    display: none;
+  }
+
+  .icon-header-end a:nth-child(1),
+  .icon-header-end a:nth-child(2),
+  .icon-header-end a:nth-child(3){
+    display: none;
+  }
+
+  .menu-icon{
+    display: block;
+  }
+ 
+  .nav-bar{
+    width: 90%;
+  }
+
+  .nav-bar .logo1{
+    display: block;
+  }
+
+  .nav-bar .logo{
+    display: none;
+  }
+  .home .wrapper{
+    width: 95%;
+    flex-direction: column-reverse;
+  }
+
+  .home .content {
+    width: 80%;
+  }
+
+  .home .content h1{
+    font-size: 3rem;
+    margin-top: 100px;
+  }
+  
+
+  .image{
+    width: 80%;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .go-top{
+    bottom: 12%;
+    padding: 10px;
+  }
+
+
+  .bottom-nav-bar {
+    display: flex;
+  }
+  .footer .footer-bottom {
+    padding-top: 5px;
+    padding-bottom: 90px;
+  }
+  
+
+}
+
+@media only screen and (max-width: 600px) {
+  .home .wrapper{
+    width: 100%;
+    flex-direction: column-reverse;
+  }
+
+  .home .content {
+    width: 90%;
+  }
+
+  .home .content h1{
+    font-size: 2rem;
+    margin-top: 0;
+
+  }
+  
+
+  .image{
+    width: 90%;
+    height: 400px;
+    background-size: contain;
+    background-position: center;
+  }
+}
+
+
+@media only screen and (max-width: 400px) {
+  .home .wrapper{
+    width: 100%;
+    flex-direction: column-reverse;
+  }
+
+  .home .content {
+    width: 90%;
+  }
+
+  .home .content h1{
+    font-size: 1.5rem;
+    margin-top: 0px;
+  }
+
+  .btn-home {
+    width: 150px;
+    height: 40px;
+    font-size: 12px;
+  }
+  
+
+
+}
+
+
+
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+@media only screen and (max-width: 1200px) {
+
+  .container{
+    width: 95%;
+  }
+}
